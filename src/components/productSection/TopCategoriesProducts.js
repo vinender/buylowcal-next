@@ -20,22 +20,22 @@ export default function TopCategoriesProducts() {
             
                 <div className=' flex justify-around mt-2  overflow-x-scroll '>
 
-                    <Image className='ml-6 mix-w-24  object-contain rounded-sm' src={require('../images/product1.jpg')}
+                    <Image className='ml-6 mix-w-24  object-contain rounded-sm' src={require('/images/product1.jpg')}
                     width={300} height={200} />
 
-                    <Image className='ml-6  min-w-24  object-contain rounded-sm' src={require('../images/product1.jpg')}
+                    <Image className='ml-6  min-w-24  object-contain rounded-sm' src={require('/images/product1.jpg')}
                                 width={300} height={200}  />
 
-                    <Image  className='ml-6  min-w-24  object-contain rounded-sm' src={require('../images/product1.jpg')}
+                    <Image  className='ml-6  min-w-24  object-contain rounded-sm' src={require('/images/product1.jpg')}
                                 width={300} height={200} />
 
-                    <Image className='ml-6  object-contain  min-w-24rounded-sm' src={require('../images/product1.jpg')}
+                    <Image className='ml-6  object-contain  min-w-24rounded-sm' src={require('/images/product1.jpg')}
                                 width={300} height={200} />
 
-                    <Image className='ml-6  object-contain  min-w-24 rounded-sm' src={require('../images/product1.jpg')}
+                    <Image className='ml-6  object-contain  min-w-24 rounded-sm' src={require('/images/product1.jpg')}
                                 width={300} height={200} />
 
-                    <Image className='ml-6  object-contain min-w-24 rounded-sm' src={require('../images/product1.jpg')}
+                    <Image className='ml-6  object-contain min-w-24 rounded-sm' src={require('/images/product1.jpg')}
                                 width={300} height={200} />
 
                     {/* <Image className='ml-6  min-w-24 rounded-sm'  src={require('../images/product1.jpg')}

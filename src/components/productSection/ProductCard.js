@@ -1,16 +1,19 @@
-
+import Image from 'next/image';
 export default function ProductCard({image, discount, title, basePrice, currentPrice}) {
     return (
         <div className='product-card'>
              
-            <span className='discount'>{discount}</span> 
-            <img className='img' src={image}/>
+            <div className='discount'>{discount}
+            </div> 
+            <Image className='img' width={200} height={200} src={image}/>
+            <div className='price-info'>
             <h3>{currentPrice}<del>{basePrice}</del></h3>
             <h2>{title}</h2>
+            </div>
 
             <style jsx>{`
 
-            div{
+            .product-card{
                 position: relative:
                 border: 6px solid red;
                 max-width: 220px;
@@ -21,7 +24,7 @@ export default function ProductCard({image, discount, title, basePrice, currentP
                 
             }
 
-                span{
+                .discount{
                     position: absolute;
                     top:5;
                     right:5;
@@ -30,9 +33,11 @@ export default function ProductCard({image, discount, title, basePrice, currentP
                     background: green;
                     color: white;
                 }
-                img{
-                    width:10rem;
-                    height: 10rem;
+                
+                
+
+                .price-info{
+                    text-align: left;
                 }
 
                  h3 {
